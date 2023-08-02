@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 70%;
+    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .three-section {
+    margin: 90px 50px 50px 40px;
+    width: 45%;
+    height: 110vh;
+  }
+
+  .new {
+    width: 55%;
+    height: 110vh;
+  }
+
+  .three-section-p {
+    width: 90%;
+    height: 3vh;
+    margin-bottom: 100px;
+  }
+
+  .three-section-p2 {
+    word-spacing: 5px;
+    line-height: 30px;
+    width: 90%;
+  }
+
+  .new {
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    line-height: 65px;
+  }
+
+  .new-1,
+  .new-2,
+  .new-3 new {
+    margin-right: 30px;
+  }
+
+  .three-section ul,
+  .three-section h4 {
+    width: 90%;
+  }
+
+  .sec-sect4{
+    height: 100vh;
+  }
+
+  .sec-sect4 div:nth-child(1),
+  .sec-sect4 div:nth-child(2),
+   .sec-sect4 div:nth-child(3)
+  {
+    padding: 50px;
+  }
+
+  .sec-sect5{
+    height: 150vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* height: 35vh; */
+  }
+
+  
+
+  .sec-sect5 div:nth-child(1),
+  .sec-sect5 div:nth-child(2),
+  .sec-sect5 div:nth-child(3){
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sec-sect5 div:nth-child(1) p{
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+  
+
+  .button{
+    margin: 30px auto;
+  }
+  }
